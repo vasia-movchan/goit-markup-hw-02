@@ -1,0 +1,54 @@
+:root {
+   --title-text-color: #212121;
+   --content-text-color: #757575;
+   --text-hover-color: #2196f3;
+   --btn-color: #2196f3;
+   --btn-color-hover: #188ce8;
+   --btn-text-first-color: #ffffff;
+   --btn-text-second-color: #212121;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   color: var(--content-text-color);
+}
+
+/* ----------Убирает подчеркивание с линков---------- */
+.link {
+   text-decoration: none;
+}
+/* -----------Убирает маркеры в списках------------ */
+.list {
+   list-style: none;
+}
+/* ---------------LOGO-------------- */
+.logo {
+   font-family: Raleway;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: calc(31 / 26);
+   letter-spacing: 0.03em;
+   color: var(--text-hover-color);
+}
+
+.logo2 {
+   color: #000000;
+}
+
+/* ------------------NAVIGATION------------------- */
+.nav-link {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: calc(16 / 14);
+   letter-spacing: 0.02em;
+   color: var(--title-text-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+   color: var(--text-hover-color);
+}
+
+/* .current {
+   color: var(--text-hover-color);
+} */
