@@ -52,3 +52,68 @@ body {
 /* .current {
    color: var(--text-hover-color);
 } */
+
+/* ------HERO-------- */
+
+.hero-title {
+   font-weight: 900;
+   font-size: 44px;
+   line-height: calc(60 / 44);
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   color: var(--btn-text-first-color);
+   background-color: var(--content-text-color);
+}
+
+.hero-btn {
+   cursor: pointer;
+   width: 200px;
+   height: 50px;
+   border-radius: 4px;
+   background-color: var(--btn-color);
+   border: none;
+   font-family: Roboto;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: calc(30 / 16);
+   text-align: center;
+   letter-spacing: 0.06em;
+   color: var(--btn-text-first-color);
+}
+
+.hero-btn:focus,
+.hero-btn:hover {
+   background-color: var(--btn-color-hover);
+}
+
+/* ---------------ADVANTAGES------------- */
+.advantage-title {
+   position: absolute;
+   white-space: nowrap;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   border: 0;
+   padding: 0;
+   clip: rect(0 0 0 0);
+   clip-path: inset(50%);
+   margin: -1px;
+}
+
+.advantage-item-title {
+   font-weight: bold;
+   font-size: 14px;
+   line-height: calc(16 / 14);
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: var(--title-text-color);
+}
+
+.advantage-item-text {
+   font-size: 14px;
+   line-height: calc(24 / 14);
+   letter-spacing: 0.03em;
+}
+
+/* -------------OUR WORK------------- */
