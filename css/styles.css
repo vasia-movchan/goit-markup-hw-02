@@ -76,9 +76,9 @@ body {
    color: var(--content-text-color);
 }
 
-/* .current {
+.current {
    color: var(--text-hover-color);
-} */
+}
 
 /* -------------------HERO------------------ */
 
@@ -205,6 +205,11 @@ body {
 
 .filter-btn:hover,
 .filter-btn:focus {
+   background-color: var(--btn-color);
+   color: var(--btn-text-first-color);
+}
+
+.btn-current {
    background-color: var(--btn-color);
    color: var(--btn-text-first-color);
 }
